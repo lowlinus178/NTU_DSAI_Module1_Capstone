@@ -1,0 +1,33 @@
+# Clone your repo (skip if already cloned)
+git clone git@github.com:lowlinus178/NTU_DSAI_Module1_Capstone.git
+
+# Move into the repo# Clone your repo (skip if already cloned)
+git clone git@github.com:lowlinus178/NTU_DSAI_Module1_Capstone.git
+
+# Move into the repo
+cd NTU_DSAI_Module1_Capstone
+
+# Copy dataset into the same folder as your Streamlit file
+cp /c/Users/User/NTU_DSAI_Module1/SGJobData_cleaned_processed_compressed.csv.gz .
+
+# Stage the file
+git add SGJobData_cleaned_processed_compressed.csv.gz
+
+# Commit with a message
+git commit -m "Add dataset alongside Streamlit app"
+
+# Push to GitHub (replace 'main' if your branch is different)
+git push origin main
+cd NTU_DSAI_Module1_Capstone
+
+# Copy dataset into the same folder as your Streamlit file
+cp /c/Users/User/NTU_DSAI_Module1/SGJobData_cleaned_processed_compressed.csv.gz .
+
+# Stage the file
+git add SGJobData_cleaned_processed_compressed.csv.gz
+
+# Commit with a message
+git commit -m "Add dataset alongside Streamlit app"
+
+# Push to GitHub (replace 'main' if your branch is different)
+git push origin main
