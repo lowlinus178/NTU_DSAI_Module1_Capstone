@@ -4,6 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run ntu_dsai_module_1_capstone_app.py --server.port $PORT --server.address 0.0.0.0
+    startCommand: streamlit run "3. ntu_dsai_module_1_capstone_app.py" --server.port $PORT --server.address 0.0.0.0
     healthCheckPath: /
+
     healthCheckTimeout: 300
