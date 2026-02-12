@@ -46,7 +46,7 @@ st.subheader("Signs of Structural Misalignments")
 # ======================================================
 @st.cache_data
 def load_and_prepare_data():
-    path = "3. SGJobData_cleaned_processed_compressed.csv.gz"
+    path = "2. SGJobData_cleaned_processed_compressed.csv.gz"
     df = pd.read_csv(path)
     df.columns = df.columns.str.strip()
     
@@ -258,4 +258,5 @@ st.markdown(
     * **Evidence of Imbalance**: The stark differences between the bottom versus top 10 job categories signal potential structural misalignments in the current Singapore workforce. 
     * **Long-term Sustainability**: This calls for targeted rebalancing to ensure Singapore's economic sustainability for the longer term.
     '''
+
 )
